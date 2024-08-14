@@ -140,7 +140,8 @@ console.log("Javascript"=="Javascript" ? "match" : "mismatch")
 console.log("AA"<"aa" ? "true" : "false")
 console.log("Javascript"==="javascript" ? "match" : "mismatch")
 
-//Template Literals
+
+//9.Template Literals
 // JavaScript that allows you to create strings with embedded expressions, multi-line text, and improved readability. They are enclosed by backticks (`) instead of single or double quotes.
 //it replace if and else condition at some level
 let num1 = 10
