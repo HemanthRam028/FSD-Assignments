@@ -172,9 +172,9 @@ console.log(1000n+2n)
 //3. Data Types in JavaScript - 2
 //String is sequences of letters are characters. it is enclosed in single, double quotes and backticks.
 console.log("Hello, world!");
-let c = "hemanth"
+let c2 = "hemanth"
 let d = "ram"
-console.log(c + d);
+console.log(c2 + d);
 console.log("hemanth \n ram")
 console.log("hemanth\t\tram\nravi\vkuma\bar\br")
 console.log('heamth"Ram"');
@@ -186,10 +186,10 @@ console.log("Ab"<"ab")
 console.log(null, typeof null)
 
 //Undefined means value is declared but not assigned.
-let a;
-console.log(a)
-let b;
-console.log(b)
+let a2;
+console.log(a2)
+let b1;
+console.log(b1)
 
 //Null indicate that a varbile has no value.
 let m = null;
