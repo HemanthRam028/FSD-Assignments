@@ -1,80 +1,80 @@
-// function range(start, end){
-//     let result = [];
-//     for (let i = start; i <= end; i++){
-//         result.push(i)
-//     }
-//     return result
-// }
+function range(start, end){
+    let result = [];
+    for (let i = start; i <= end; i++){
+        result.push(i)
+    }
+    return result
+}
 
-// console.log(range(1, 10));
+console.log(range(1, 10));
 
-// function sum(numbers){
-//     sum = 0
-//     for (let i = 0; i<=numbers.length; i++){
-//         sum+=i
+function sum(numbers){
+    sum = 0
+    for (let i = 0; i<=numbers.length; i++){
+        sum+=i
 
-//     }return sum
-// }
+    }return sum
+}
 
-// console.log(sum([1,2,3,4,5,6,7,8,9,10]))
+console.log(sum([1,2,3,4,5,6,7,8,9,10]))
 
 
-// function range(start, end, step=1){
-//     let result = []
-//     let sum = 0
-//     if (step > 0){
-//         for (let i = start; i<=end; i+=step){
-//             sum+=i
-//             result.push(i)
-//         }
-//     }else{
-//         for (let i = start; i>=end; i+=step){
-//             sum+=i
-//             result.push(i)  
-//         }
+function range(start, end, step=1){
+    let result = []
+    let sum = 0
+    if (step > 0){
+        for (let i = start; i<=end; i+=step){
+            sum+=i
+            result.push(i)
+        }
+    }else{
+        for (let i = start; i>=end; i+=step){
+            sum+=i
+            result.push(i)  
+        }
         
-//     }
-//     return {result, sum}
+    }
+    return {result, sum}
     
-// }
+}
     
 
-// console.log(range(1, 10));
-// // → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-// console.log(range(5, 2, -1));
-// // → [5, 4, 3, 2]
+console.log(range(1, 10));
+// → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(range(5, 2, -1));
+// → [5, 4, 3, 2]
 
 
 console.log("................")
 
-// function reverseArray(myArray){
-//     let result = [];
-//     for (let i = myArray.length-1;i>=0; i--){
-//         result.push(myArray[i])
-//     }
-//     return result
-// }
+function reverseArray(myArray){
+    let result = [];
+    for (let i = myArray.length-1;i>=0; i--){
+        result.push(myArray[i])
+    }
+    return result
+}
 
-// let myArray = ["A","B","C"]
-// console.log(reverseArray(myArray));
-// console.log(myArray);
-
-
+let myArray = ["A","B","C"]
+console.log(reverseArray(myArray));
+console.log(myArray);
 
 
-// function reverseArrayInPlace(arrayValue){
-//     let results = []
-//     for (let i = arrayValue.length-1; i>=0; i--){
-//         results.push(arrayValue[i])
-//     }
-//     for (let i = 0; i < results.length; i++) {
-//         arrayValue[i] = results[i];
-//     }
-// }
-// let arrayValue = [1, 2, 3, 4, 5];
-// reverseArrayInPlace(arrayValue);
-// console.log(arrayValue);
-// // → [5, 4, 3, 2, 1]
+
+
+function reverseArrayInPlace(arrayValue){
+    let results = []
+    for (let i = arrayValue.length-1; i>=0; i--){
+        results.push(arrayValue[i])
+    }
+    for (let i = 0; i < results.length; i++) {
+        arrayValue[i] = results[i];
+    }
+}
+let arrayValue = [1, 2, 3, 4, 5];
+reverseArrayInPlace(arrayValue);
+console.log(arrayValue);
+// → [5, 4, 3, 2, 1]
 
 console.log("...................")
 
