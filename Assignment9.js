@@ -102,6 +102,7 @@ For each sub-array (currentValue), the function uses accumulator.concat(currentV
 The concat() method is used because it combines two arrays into one.
 Final Result lists1: The final result is a single flattened array [1, 2, 3, 4, 5, 6] that combines all the elements of the nested arrays.*/
 
+console.log("............")
 
 //Q3. Explain the .filter() function in JavaScript and provide three examples with detailed explanations.
 /*The filter() method creates a new array filled with elements that pass a test provided by a function.
